@@ -1,0 +1,35 @@
+.section-encabezado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin: 40px 0;
+}
+
+.section-encabezado .icon {
+  position: relative;
+  padding: 0 20px;
+}
+
+.section-encabezado .icon::before,
+.section-encabezado .icon::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 100px;  /* ancho de la línea */
+  height: 2px;   /* grosor de la línea */
+  background-color: #ccc;
+}
+
+.section-encabezado .icon::before {
+  right: 100%;   /* línea hacia la izquierda */
+  margin-right: 10px;
+}
+
+.section-encabezado .icon::after {
+  left: 100%;    /* línea hacia la derecha */
+  margin-left: 10px;
+}

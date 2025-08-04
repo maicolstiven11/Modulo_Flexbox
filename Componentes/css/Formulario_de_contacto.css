@@ -1,0 +1,56 @@
+
+
+
+/* Contenedor principal del formulario */
+.contenedor-formulario {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Cada grupo del formulario (campo con su etiqueta) */
+.contenedor-formulario__grupo-formulario {
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+/* Campos de texto, número, etc. */
+.campo-input {
+    font-size: 20px;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+}
+
+/* Campo de texto largo */
+.campo-input-textarea {
+    font-size: 15px;
+    padding: 0.5em;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+    resize: vertical;
+}
+
+/* Botón de envío */
+.boton-enviar {
+    padding: 0.7em ;
+    font-size: 19px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+.boton-enviar:hover{
+    font-weight: bold;
+}

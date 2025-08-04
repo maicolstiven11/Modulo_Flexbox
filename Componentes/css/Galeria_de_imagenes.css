@@ -1,0 +1,28 @@
+/* Bloque principal */
+.galeria {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra los ítems horizontalmente */
+    gap: 16px; /* Espacio entre ítems */
+    padding: 20px;
+}
+
+/* Cada ítem de la galería */
+.galeria__item {
+    flex: 1 1 200px; /* Crece y se ajusta con un ancho mínimo */
+    max-width: 250px;
+    text-align: center;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Imágenes dentro de cada ítem */
+.galeria__img {
+    width: auto;
+    height: 180px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+}
