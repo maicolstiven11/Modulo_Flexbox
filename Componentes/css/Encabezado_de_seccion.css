@@ -1,35 +1,34 @@
-.section-encabezado {
+.Contenedor-encabezado {
+  margin-bottom: 30px;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1300px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  position: relative;
-  font-size: 24px;
-  font-weight: bold;
-  color: #333;
-  margin: 40px 0;
 }
 
-.section-encabezado .icon {
-  position: relative;
-  padding: 0 20px;
+.Contenedor-encabezado__imagen {
+  padding: 30px;
 }
 
-.section-encabezado .icon::before,
-.section-encabezado .icon::after {
+.Contenedor-encabezado__imagen img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: transform 0.3s ;
+}
+
+.Contenedor-encabezado__imagen:hover img {
+  transform: scale(1.3);
+}
+
+.Contenedor-encabezado::before,
+.Contenedor-encabezado::after {
   content: "";
-  position: absolute;
-  top: 50%;
-  width: 100px;  /* ancho de la línea */
-  height: 2px;   /* grosor de la línea */
-  background-color: #ccc;
-}
-
-.section-encabezado .icon::before {
-  right: 100%;   /* línea hacia la izquierda */
-  margin-right: 10px;
-}
-
-.section-encabezado .icon::after {
-  left: 100%;    /* línea hacia la derecha */
-  margin-left: 10px;
+  flex: 1;
+  height: 2px;
+  background: linear-gradient(90deg,rgba(12, 22, 26, 0.89) 12%, rgba(255, 255, 255, 0.45) 32%, rgba(0, 0, 0, 1) 50%, rgba(255, 255, 255, 0.47) 77%, rgba(0, 0, 0, 0.89) 100%);
+  position: relative;
 }

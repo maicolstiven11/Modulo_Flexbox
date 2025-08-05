@@ -1,0 +1,53 @@
+.fondo-fijo{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    margin-left: 36px;
+    margin-bottom: 30px;
+    background-image: url("/img/sena.png");
+    background-size: cover;
+    z-index: 9999;
+
+}
+    
+
+.Contenedor-lista-tareas{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border: 2px solid rgba(0, 0, 0, 0.514);
+    box-shadow: 0 0 6px 1px;
+    border-radius: 30px;
+    background-color: yellowgreen;
+    width: 90%;
+    height: 400px;
+}
+
+.Contenedor-lista-tareas__titulo{
+    text-align: center;
+    font-size: 26px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+}
+.Contenedor-lista-tareas__lista{
+    text-align: center;
+    box-shadow: 0 0 8px 1px black;
+    border-color: black;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.212);
+    width: 60%;
+    height: 270px;
+}
+.Contenedor-lista-tareas__lista-no_ordenada::marker{
+    font-size: 30px;
+    color: rgb(0, 0, 0) ;
+}
+.Contenedor-lista-tareas__lista-no_ordenada{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    padding: 10px;
+}
