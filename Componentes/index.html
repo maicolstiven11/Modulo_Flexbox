@@ -18,7 +18,17 @@
             </div>
         </nav>
     </header>
+
+    <!-- punto 10 solo se muestra cuando tenga 168px para abajo la pantalla @media (max-width: 768px) -->
+    <aside class="sidebar">
+        <h3 class="sidebar__h3">Mi Sitio</h3>
+        <a href="#" class="sidebar__link">Inicio</a>
+        <a href="#" class="sidebar__link">Servicios</a>
+        <a href="#" class="sidebar__link">Contacto</a>
+    </aside>
     <main>
+
+        
         <!-- punto2 -->
         <section class="product-card">
             <img src="https://http2.mlstatic.com/D_Q_NP_802475-MLU77627701871_072024-O.webp" alt="Producto elegante" class="product-card__image">
@@ -120,7 +130,7 @@
         <!-- punto5 -->
         <section class="Contenedor-encabezado">
             <div class="Contenedor-encabezado__imagen">
-                <img src="https://i.pinimg.com/474x/a7/de/c4/a7dec46aca07b2e12e2e361cfa9312ec.jpg" alt="Imagen de html y css" />
+                <img class="encabezado__imagen" src="https://i.pinimg.com/474x/a7/de/c4/a7dec46aca07b2e12e2e361cfa9312ec.jpg" alt="Imagen de html y css" />
             </div>
         </section>
 
@@ -136,6 +146,81 @@
             </ul>
             <div class="fondo-fijo"></div>
         </section>
+
+        <!-- punto7 -->
+        <section class="Contenedor-componente">
+            <img src="https://i.pinimg.com/236x/c7/52/19/c75219409c6e35e4a8224335c6d23339.jpg" alt="Avatar de usuario" class="Contenedor-componente__avatar">
+            <div class="Contenedor-componente__text-content">
+                <h3 class="Contenedor-componente__text-content__h3">Juan Benito</h3>
+                <p class="Contenedor-componente__text-content__p">Esta pagina es la mejor que he visto esta excelente y la recomendaria al 100%.</p>
+            </div>
+        </section>
+
+        <!-- punto9 -->
+        <section class="seccion-precios">
+            <h2 class="seccion-precios__h2">Planes de precios</h2>
+            <div class="seccion-precios__cards">
+                <div class="card">
+                    <h3 class="card__h3">Básico</h3>
+                    <p class="card__precio">$90.000/mes</p>
+                    <ul class="card__lista-sin-orden">
+                        <li class="card__lista-sin-orden__items">1 usuario</li>
+                        <li class="card__lista-sin-orden__items">5 GB de almacenamiento</li>
+                        <li class="card__lista-sin-orden__items">Soporte básico</li>
+                    </ul>
+                    <button class="card__button">Elegir</button>
+                </div>
+                <div class="card">
+                    <h3 class="card__h3">Estándar</h3>
+                    <p class="card__precio">$190.000/mes</p>
+                    <ul class="card__lista-sin-orden">
+                        <li class="card__lista-sin-orden__items">5 usuarios</li>
+                        <li class="card__lista-sin-orden__items">50 GB de almacenamiento</li>
+                        <li class="card__lista-sin-orden__items">Soporte prioritario</li>
+                    </ul>
+                    <button class="card__button">Elegir</button>
+                </div>
+                <div class="card">
+                    <h3 class="card__h3">Premium</h3>
+                    <p class="card__precio">$290.000/mes</p>
+                    <ul class="card__lista-sin-orden">
+                        <li class="card__lista-sin-orden__items">Usuarios ilimitados</li>
+                        <li class="card__lista-sin-orden__items">200 GB de almacenamiento</li>
+                        <li class="card__lista-sin-orden__items">Soporte 24/7</li>
+                    </ul>
+                    <button class="card__button">Elegir</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- punto8 -->
+
+        <footer class="footer">
+            <div class="footer__column">
+                <h4 class="footer__column__h4">Compañía</h4>
+                <ul class="footer__column__lista-sin-orden">
+                    <li class="footer__column__lista-sin-orden__item"><a class="footer__column__lista-sin-orden__item__link" href="#">Sobre nosotros</a></li>
+                    <li class="footer__column__lista-sin-orden__item"><a class="footer__column__lista-sin-orden__item__link" href="#">Carreras</a></li>
+                    <li class="footer__column__lista-sin-orden__item"><a class="footer__column__lista-sin-orden__item__link" href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer__column">
+                <h4>Ayuda</h4>
+                <ul class="footer__column__lista-sin-orden">
+                    <li class="footer__column__lista-sin-orden__item"><a class="footer__column__lista-sin-orden__item__link" href="#">Soporte</a></li>
+                    <li class="footer__column__lista-sin-orden__item"><a class="footer__column__lista-sin-orden__item__link" href="#">Preguntas frecuentes</a></li>
+                    <li class="footer__column__lista-sin-orden__item"><a class="footer__column__lista-sin-orden__item__link"  href="#">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer__column">
+                <h4>Legal</h4>
+                <ul class="footer__column__lista-sin-orden">
+                    <li class="footer__column__lista-sin-orden__item"><a class="footer__column__lista-sin-orden__item__link" href="#">Términos</a></li>
+                    <li class="footer__column__lista-sin-orden__item"><a class="footer__column__lista-sin-orden__item__link" href="#">Privacidad</a></li>
+                    <li class="footer__column__lista-sin-orden__item"><a class="footer__column__lista-sin-orden__item__link" href="#">Cookies</a></li>
+                </ul>
+            </div>
+        </footer>
 
     </main>
 

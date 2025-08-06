@@ -12,15 +12,15 @@
   padding: 30px;
 }
 
-.Contenedor-encabezado__imagen img {
+.encabezado__imagen  {
   width: 100px;
   height: 100px;
   object-fit: cover;
   border-radius: 50%;
-  transition: transform 0.3s ;
+  transition: transform 0.3s ease ;
 }
 
-.Contenedor-encabezado__imagen:hover img {
+.encabezado__imagen:hover  {
   transform: scale(1.3);
 }
 

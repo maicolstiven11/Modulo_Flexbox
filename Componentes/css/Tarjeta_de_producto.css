@@ -47,8 +47,10 @@
   font-weight: bold;
   border-radius: 4px;
   cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
 .product-card__button:hover {
   background-color: #003e80;
+  transform: scale(1.1);
 }

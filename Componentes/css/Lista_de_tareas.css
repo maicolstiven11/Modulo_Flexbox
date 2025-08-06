@@ -6,7 +6,7 @@
     height: 100px;
     margin-left: 36px;
     margin-bottom: 30px;
-    background-image: url("/img/sena.png");
+    background-image: url("/Componentes/img/sena.png");
     background-size: cover;
     z-index: 9999;
 
@@ -22,7 +22,8 @@
     border-radius: 30px;
     background-color: yellowgreen;
     width: 90%;
-    height: 400px;
+    height: 430px;
+    margin-bottom: 60px;
 }
 
 .Contenedor-lista-tareas__titulo{
@@ -39,7 +40,7 @@
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.212);
     width: 60%;
-    height: 270px;
+    height: 300px;
 }
 .Contenedor-lista-tareas__lista-no_ordenada::marker{
     font-size: 30px;

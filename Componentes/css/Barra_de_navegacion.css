@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: #1e1e2f;
     padding: 15px;
     margin-bottom: 30px;
 }
@@ -28,9 +28,10 @@
 .navbar__link {
     color: white;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
+    transition: transform 0.3s ease ;
 }
 
 .navbar__link:hover {
-    text-decoration: underline;
+    transform:scale(1.2) ;
 }

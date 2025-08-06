@@ -5,7 +5,7 @@
 .contenedor-formulario {
     display: flex;
     flex-direction: column;
-    max-width: 70%;
+    max-width: 60vh;
     margin: 0 auto;
     background-color: #ffffff;
     padding: 20px;
@@ -19,7 +19,7 @@
 .contenedor-formulario__grupo-formulario {
     margin-bottom: 30px;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
 }
 
@@ -51,7 +51,9 @@
     border: none;
     border-radius: 0.5em;
     cursor: pointer;
+    transition: transform 0.3s ease;
 }
 .boton-enviar:hover{
     font-weight: bold;
+    transform: scale(1.1);
 }
